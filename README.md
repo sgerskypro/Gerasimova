@@ -36,7 +36,7 @@
 
 ## Полезные ссылки
 
--!!!!!!!!!!!!!!!!!!!!!!! [Проект Читай город: тест план + отчет о тестировании ](https://juniper-ranunculus-9dd.notion.site/09e79800396f4c2ca5a6651d5bbfe692?pvs=4)
+- [Тест-план] https://sger.yonote.ru/doc/diplom-chitaj-gorod-hborpA8792
 - [Веб-интерфейс сервиса Читай город ](https://www.chitai-gorod.ru/)
 
 ## Библиотеки
@@ -51,11 +51,5 @@
 
 ## Запуск тестов
 
-- `pytest | python3 -m pytest` (запуск тестов)
-- `python3 -m pytest -s` (вывод в консоль print)
-- `python3 -m pytest -v` (запуск тестов с подробным выводом в консоль)
-- `python3 pytest -m ui_test.py` (запуск только UI тестов)
-- `python3 pytest -m api_test.py` (запуск только API тестов)
-- `python3 -m pytest --alluredir allure-result` (запуск тестов и сохранение отчета о результатах тестирования)
-- `python3 allure serve allure-result/` (формирование отчета о тестировании)
-pytest  -v
+- pytest tests_api.py -v
+- pytest tests_ui.py  -v
