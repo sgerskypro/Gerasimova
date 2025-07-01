@@ -1,4 +1,4 @@
-# Проект по автоматизации API и UI тестирования на Python для компании веб-сервиса Читай город
+# Проект по автоматизации API и UI тестирования на Python для  веб-сервиса Читай город
 
 ***
 «Читай-город» – это самая большая в России сеть книжных магазинов и интернет-магазин.
@@ -41,13 +41,8 @@
 
 ## Библиотеки
 
-- pip3 install pytest
-- pip3 install selenium
-- pip3 install webdriver-manager
-- pip3 install allure-pytest
-- pip3 install requests
-- pip install pytest requests python-dotenv allure-pytest -для API-тестов
-- pip install selenium webdriver-manager - для UI -тестов
+- pip install -U pytest selenium webdriver-manager allure-pytest requests
+- pip install pytest-repeat
 
 ## Запуск тестов
 
