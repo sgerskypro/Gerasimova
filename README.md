@@ -47,4 +47,5 @@
 ## Запуск тестов
 
 - pytest tests_api.py -v
-- pytest tests_ui.py  -v
+- pytest tests_ui.py  -v    [тесты выполняются в трогом порядке один за другим]
+- pytest --ignore=tests/conftest.py tests/  [запуск всех тестов одновременно]
