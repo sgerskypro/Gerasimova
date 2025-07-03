@@ -20,6 +20,7 @@ class SearchPageLocators:
 
     # Локатор  кнопки "Купить" в карточке
     BUY_BUTTON = (By.XPATH, ".//button[contains(., 'Купить')]")
+    WAIT_IN_SEARCH = (By.XPATH, "//div[contains(text(),'Оформить')]")
 
     # кнока корзины
     CART_BUTTON = (By.XPATH, "//span[contains(text(),'Корзина')]/..")
@@ -29,5 +30,7 @@ class SearchPageLocators:
 
 class CartPageLocators:
     CLEAR_CART = (By.XPATH, "//span[@class='cart-page__clear-cart-title']")
+    MAKE_ORDER_BUTTON = (By.XPATH, "//div[contains(text(),'Перейти к оформлению')]")
     BACK_TO_CATALOGUE = (By.XPATH, "//div[contains(text(),'Перейти в каталог')]")
-    BACK_TO_CART = (By.XPATH, "//div[@class='chg-app-button__content'][normalize-space()='']")
+    RESTORE_CART = (By.XPATH, "//div[contains(text(),'Восстановить корзину')]")
+    LOGO_BUTTON = (By.XPATH, "//a[@class='header__logo-link']//*[name()='svg']")

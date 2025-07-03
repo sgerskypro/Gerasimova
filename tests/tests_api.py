@@ -4,7 +4,7 @@ import allure
 from pages.CompanyApi import CompanyApi
 
 API_URL = "https://web-gate.chitai-gorod.ru/api/v1"
-Bearer = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTE1MzQxMTIsImlhdCI6MTc1MTM2NjExMiwiaXNzIjoiL2FwaS92MS9hdXRoL2Fub255bW91cyIsInN1YiI6IjJhZTkxNjQwMTc3ODlhOWYxMDNhN2IyZjA0ZDljYWVhMzZmMjkxNTY1NzJjMmMzZTAwMDllYjdiM2NkN2RmZWEiLCJ0eXBlIjoxMH0.ovg-DiIbwPpfx4Z5d05bAokAzlnuTWOujA7rkuLcSq4"  # Заменить на новый токен
+Bearer = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTE3MTc3OTYsImlhdCI6MTc1MTU0OTc5NiwiaXNzIjoiL2FwaS92MS9hdXRoL2Fub255bW91cyIsInN1YiI6ImJkMGU3ZjJhZjdkYWU4NWY3ZmJiMDE5MzQyYzJmMGRhZmZhZDcyMzFkYzA2MmIwOTY1YjBjNjk2MDIxMDFjOTUiLCJ0eXBlIjoxMH0.8bOzmqf1tLB9otac-YbxFO9kEoB1fVtPwg4FjN6mbrM"  # Заменить на новый токен
 
 
 @allure.title("Добавить продукт в корзину")
